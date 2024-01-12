@@ -1,0 +1,101 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.name h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.box h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #fff;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/minecraft\ back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.about P{
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #FEC53A;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}

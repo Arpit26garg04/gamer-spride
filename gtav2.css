@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1a0327;
+    font-family: 'poppins', sans-serif;
+    height: 350vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0,5),rgba(0,0,0,0,5)url());
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    line-height: 1.3rem;
+    font-style: italic;
+}
+
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.logo.fas{
+    font-size: 50px;
+
+}
+
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar li{
+    width: 120px;
+}
+
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul.navbar li a.active{
+    color: crimson;
+}
+
+ul.navbar li a:hover:not(.active){
+    color: aqua;
+}
+
+#btn{
+    width: 250px;
+    height:10vh;
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#btn.fas{
+    margin-right: 10px;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
+
+.center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.name h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}

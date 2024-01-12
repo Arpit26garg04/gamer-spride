@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body{
+    background: #1a0327;
+    font-family: 'poppins', sans-serif;
+    height: 350vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0,5),rgba(0,0,0,0,5)url());
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    line-height: 1.3rem;
+    font-style: italic;
+}
+
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.logo.fas{
+    font-size: 50px;
+
+}
+
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar li{
+    width: 120px;
+}
+
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul.navbar li a.active{
+    color: crimson;
+}
+
+ul.navbar li a:hover:not(.active){
+    color: aqua;
+}
+
+#btn{
+    width: 250px;
+    height:10vh;
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#btn.fas{
+    margin-right: 10px;
+}
+.center{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.name h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.box h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #fff;
+}
+
+.about P{
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#btn2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #FEC53A;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: none;
+    color: #0ef;
+    line-height: 1.7rem;
+}
+
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #0ef;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #0ef;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #0ef;
+    font-weight: bold;
+    
+}
+.name h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #04AA6D;
+    text-align:center;
+}
+.vertical-menu {
+    width: 200px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
